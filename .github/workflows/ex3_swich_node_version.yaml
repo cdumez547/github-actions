@@ -13,7 +13,7 @@ jobs:
         - name : setup node
           uses: actions/setup-node@v4
           with:
-            node-version: '$NODE_VERSION'
+            node-version: $NODE_VERSION
         - name: run test
           shell: bash
           run: |
