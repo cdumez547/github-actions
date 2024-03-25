@@ -5,4 +5,8 @@ on:
 
 jobs:
     call-workflow-4-in-local-repo:
-        uses: ./.github/workflows/ex4.yaml
+        uses: ./.github/workflows/ex4.yaml 
+        with:
+            node_version : 20
+
+
